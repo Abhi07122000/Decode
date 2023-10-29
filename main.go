@@ -71,5 +71,5 @@ func main() {
 		return
 	}
 
-	fmt.Printf("Decoded struct: {%d, \"%s\", %d, \"%s\", %d, \"%s\", , %d}\n", decoded.Short1, decoded.String1, decoded.Byte1, decoded.String2, decoded.Short2, decoded.String3, decoded.Long1)
+	fmt.Printf("Decoded struct: {%d, \"%s\", %d, \"%s\", %d, \"%s\", %d}\n", decoded.Short1, decoded.String1, decoded.Byte1, decoded.String2, decoded.Short2, decoded.String3, decoded.Long1)
 }
